@@ -1,0 +1,29 @@
+name: mim_pedir_app
+description: Solução proposta pelo sprint para o app MiM Pedir.
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Para a Atividade 2 (Banner Carrossel), usaremos o PageView,
+  # mas se fosse usar uma biblioteca, seria algo como:
+  # carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para a Atividade 1 (Filtros com Bandeiras), usaremos Image.asset,
+  # então precisamos de um diretório para as imagens.
+  assets:
+    - assets/images/
